@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+  <title>2D Cozy RPG Life — Mundo jugable</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas id="game" aria-label="Mundo 2D top-down jugable"></canvas>
+  <div class="hud hud-left">
+    <div class="brand">2D COZY RPG LIFE</div>
+    <div class="zone" id="zone">Costa de las Ruinas</div>
+    <div class="status"><span class="hp-dot"></span><span>100 / 100</span><span class="sep">·</span><span id="time">08:10</span></div>
+  </div>
+  <div class="hud hud-right">
+    <div><b>WASD / Flechas</b> mover</div>
+    <div><b>E</b> entrar / hablar</div>
+    <div><b>Shift</b> correr</div>
+  </div>
+  <div class="toast" id="toast">Mundo listo.</div>
+  <script src="main.js"></script>
+</body>
+</html>
