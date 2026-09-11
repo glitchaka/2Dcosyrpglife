@@ -1,31 +1,20 @@
 # 2D Cozy RPG Life
 
-Maqueta jugable 2D top-down basada en la guía visual entregada y reinterpretada en pixel art propio.
+Maqueta top-down transitable usando arte original de Kenney sin reinterpretación visual.
 
-## Estado
+## Escenas actuales
 
-- Mundo exterior transitable a escala 16×16.
-- Costa, muelle, aldea, plaza, santuario en ruinas, conjunto de ruinas y entrada de cueva.
-- Cueva interior transitable con río, puentes, cristales, iluminación y salida.
-- Dos interiores de edificio.
-- Colisiones e interacción con puertas, cueva y NPC placeholder.
-- Agua y antorchas animadas.
-- Assets raster organizados en atlas con celdas exactas de **16×16 px**.
-- Props y personajes con **transparencia real**.
-- Sin librerías externas.
+- Mundo exterior: Kenney Tiny Town, 16×16, CC0.
+- Mazmorra: Kenney Tiny Dungeon, 16×16, CC0.
 
 ## Controles
 
 - WASD / flechas: mover.
 - Shift: correr.
-- E: interactuar / entrar / salir.
+- E: usar el paso entre exterior y mazmorra cuando aparece la indicación.
 
-## Assets para revisar
+## Arte
 
-- `assets/tiles_atlas.png`
-- `assets/props_atlas.png`
-- `assets/characters_atlas.png`
-- `assets/atlas.json` contiene las coordenadas de cada celda 16×16.
-- `assets/review.html` muestra los atlas ampliados sin filtrado suave.
+No se usa el atlas procedural anterior. La maqueta carga directamente las muestras originales de los packs de Kenney indicados en `KENNEY_SOURCES.md`.
 
-Los `.svg` del mismo nombre se mantienen únicamente como wrappers de compatibilidad para la maqueta actual; contienen exactamente los nuevos raster PNG.
+Los packs de Kenney usados aquí se publican bajo CC0.
