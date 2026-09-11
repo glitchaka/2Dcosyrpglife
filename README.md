@@ -11,8 +11,8 @@ Primera maqueta jugable 2D top-down basada en las referencias entregadas.
 - Colisiones.
 - Interacción con puertas, cueva y NPC placeholder.
 - Agua y antorchas animadas.
-- Assets organizados en atlas con celdas de **16×16 px**.
-- Props y personajes con **fondo transparente**.
+- Assets organizados en atlas con celdas raster de **16×16 px**.
+- Props y personajes con **transparencia real**.
 - Sin librerías externas.
 
 ## Controles
@@ -23,8 +23,8 @@ Primera maqueta jugable 2D top-down basada en las referencias entregadas.
 
 ## Revisión de assets
 
-- `assets/tiles_atlas.png`
-- `assets/props_atlas.png`
-- `assets/characters_atlas.png`
-- `assets/ui/asset_review.png` contiene una hoja ampliada para revisar todos los tiles y sprites sin escalado suave.
-- `assets/atlas.json` contiene las coordenadas de cada celda 16×16.
+- `assets/tiles_atlas.svg`
+- `assets/props_atlas.svg`
+- `assets/characters_atlas.svg`
+- `assets/atlas.json` contiene las coordenadas exactas de cada celda 16×16.
+- `assets/review.html` muestra los tres atlas ampliados x8 sin filtrado suave para revisión visual.
